@@ -1,7 +1,21 @@
-body{
-	background: rgb(100,100,100);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
+body {
+  margin: 0;
+  padding: 0;
+  myght: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #075269;
+}
+
+#button:focus {
+  outline: none;
+}
+
+* {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
