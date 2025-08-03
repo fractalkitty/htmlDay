@@ -1,35 +1,18 @@
-let logo, ft;
-function preload() {
-  ft = loadFont(
-	"https://assets.codepen.io/4559259/Lexend-VariableFont_wght.ttf"
-  );
-}
-function setup() {
-  createCanvas(windowWidth, max(windowHeight, 300));
-  n = int(random(0, objectList.length));
-  textAlign(CENTER);
-  textFont(ft);
-  fill(30);
-  rectMode(CENTER);
-  //console.log(objectList.length)
+function changeWord() {
+	const button = document.getElementById('collectiveNoun');
+	
+	// Get a random index from the word list
+	const randomIndex = Math.floor(Math.random() * nounList.length);
+	
+	// Change the button text to the random word
+	button.textContent = nounList[randomIndex];
 }
 
-function draw() {
-  translate(width / 2, height / 2);
-  fill(140, 191, 188);
-  stroke(140, 191, 188);
-  rect(0, 0, width - 10, 150, 20, 20, 20, 20);
-  fill(0);
+window.onload = function() {
+	changeWord();
+};
 
-  textSize(width / 25);
-  text(objectList[n], 0, 10);
-}
-
-function mousePressed() {
-  n = int(random(0, objectList.length));
-}
-
-let objectList = [
+let nounList = [
   "aerie",
   "ascension",
   "band",
@@ -176,7 +159,12 @@ let objectList = [
   "library",
   "discussion",
   "oulipo",
-  "ruling"
+  "ruling",
+  "museum",
+  "earful",
+  "float",
+  "sink",
+  
   
   
   
