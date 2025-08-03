@@ -14,6 +14,21 @@ window.onload = function() {
 
 let nounList = [
   "aerie",
+  "romp",
+  "bunch",
+  "bushel",
+  "tower",
+  "fever",
+  "bask",
+  "richness",
+  "memory",
+  "thunder",
+  "storytelling",
+  "family",
+  "lodge",
+  "confusion",
+  "pod",
+  "kennel",
   "ascension",
   "band",
   "bevy",
@@ -40,6 +55,7 @@ let nounList = [
   "waddle",
   "improbability",
   "guttering",
+  "gulp",
   "deceit",
   "descent",
   "dissimulation",
@@ -81,9 +97,14 @@ let nounList = [
   "sedge",
   "sord",
   "spring",
-  "storytelling",
+  "troubling",
   "team",
-  "tidings",
+  "tiding",
+  "embarassment",
+  "crash",
+  "skulk",
+  "bloat",
+  "business",
   "funeral",
   "unkindness",
   "volery",
@@ -98,6 +119,7 @@ let nounList = [
   "school",
   "unordered list",
   "chorus",
+  "scold",
   "array",
   "array list",
   "panoply",
@@ -155,7 +177,7 @@ let nounList = [
   "bin",
   "span",
   "div",
-  "p",
+  "paragraph",
   "library",
   "discussion",
   "oulipo",
@@ -164,14 +186,9 @@ let nounList = [
   "earful",
   "float",
   "sink",
-  
-  
-  
-  
-  
-  
-  
-  
+  "swarm",
+  "pride"
+ 
   
   
 ];
