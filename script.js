@@ -1,18 +1,19 @@
 function changeWord() {
-	const button = document.getElementById('collectiveNoun');
-	
-	// Get a random index from the word list
-	const randomIndex = Math.floor(Math.random() * nounList.length);
-	
-	// Change the button text to the random word
-	button.textContent = nounList[randomIndex];
+  const button = document.getElementById("collectiveNoun");
+
+  // Get a random index from the word list
+  const randomIndex = Math.floor(Math.random() * nounList.length);
+
+  // Change the button text to the random word
+  button.textContent = nounList[randomIndex];
 }
 
-window.onload = function() {
-	changeWord();
+window.onload = function () {
+  changeWord();
 };
 
 let nounList = [
+  "tangle",
   "chain",
   "wallet",
   "register",
@@ -206,10 +207,7 @@ let nounList = [
   "float",
   "sink",
   "swarm",
-  "pride"
- 
-  
-  
+  "pride",
 ];
 
 function windowResized() {
