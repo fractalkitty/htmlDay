@@ -13,7 +13,7 @@ window.onload = function() {
 };
 
 let nounList = [
-	'sparkle',
+	'sparkle', //firefly story group - becomes sparkles
 	'podcast',
 	'tangle',
 	'chain',
