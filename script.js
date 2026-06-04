@@ -13,6 +13,7 @@ window.onload = function() {
 };
 
 let nounList = [
+	'sparkle',
 	'podcast',
 	'tangle',
 	'chain',
