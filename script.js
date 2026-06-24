@@ -13,6 +13,7 @@ window.onload = function() {
 };
 
 let nounList = [
+	'synchronization', //a group meeting to make clocks
 	'sparkle', //firefly story group - becomes sparkles
 	'podcast',
 	'tangle',
